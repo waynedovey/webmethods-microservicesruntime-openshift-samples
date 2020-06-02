@@ -69,5 +69,5 @@ spec:
       apiGroup: apps.open-cluster-management.io
   packageFilter:
     filterRef:
-      name: welcome      
+      name: webmethods      
 EOF
