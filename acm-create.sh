@@ -66,4 +66,8 @@ spec:
     placementRef:
       kind: PlacementRule
       name: webmethods-dev-clusters
+      apiGroup: apps.open-cluster-management.io
+  packageFilter:
+    filterRef:
+      name: welcome      
 EOF
