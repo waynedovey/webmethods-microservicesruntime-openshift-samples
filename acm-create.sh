@@ -69,14 +69,14 @@ spec:
   packageFilter:
     filterRef:
       name: webmethods
----
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: webmethods
-  namespace: webmethods
-  labels:
-    app: webmethods
-data:
-    path: argocd/overlays/cluster1
+#---
+#apiVersion: v1
+#kind: ConfigMap
+#metadata:
+#  name: webmethods
+#  namespace: webmethods
+#  labels:
+#    app: webmethods
+#data:
+#    path: argocd/overlays/cluster1
 EOF
