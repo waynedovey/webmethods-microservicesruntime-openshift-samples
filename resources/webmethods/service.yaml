@@ -10,10 +10,10 @@ metadata:
   name: webmethods
 spec:
   ports:
-  - name: 8080-tcp
-    port: 8080
+  - name: 5555-tcp
+    port: 5555
     protocol: TCP
-    targetPort: 8080
+    targetPort: 5555
   selector:
     app: webmethods
     deploymentconfig: webmethods
