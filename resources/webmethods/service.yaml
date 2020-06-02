@@ -16,6 +16,6 @@ spec:
     targetPort: 5555
   selector:
     app: webmethods
-    deployment: webmethods
+    deploymentconfig: webmethods
   sessionAffinity: None
   type: ClusterIP
