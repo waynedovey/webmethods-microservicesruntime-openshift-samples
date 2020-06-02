@@ -58,25 +58,12 @@ metadata:
   namespace: webmethods
   labels:
     app: webmethods
+  annotations:
+      apps.open-cluster-management.io/github-path: resources/webmethods
 spec:
-  name: webmethods
   channel: webmethods/webmethods
   placement:
     placementRef:
-      name: webmethods-dev-clusters
       kind: PlacementRule
-      apiGroup: apps.open-cluster-management.io
-  packageFilter:
-    filterRef:
-      name: webmethods
-#---
-#apiVersion: v1
-#kind: ConfigMap
-#metadata:
-#  name: webmethods
-#  namespace: webmethods
-#  labels:
-#    app: webmethods
-#data:
-#    path: argocd/overlays/cluster1
+      name: webmethods-dev-clusters
 EOF
