@@ -10,6 +10,7 @@ metadata:
     app.kubernetes.io/instance: webmethods    
   name: webmethods
 spec:
+  host: rhacm-webmethods.trafficmanager.net
   port:
     targetPort: 5555-tcp
   to:
