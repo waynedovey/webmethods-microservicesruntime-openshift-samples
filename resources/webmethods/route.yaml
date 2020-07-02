@@ -11,6 +11,7 @@ metadata:
   name: webmethods
 spec:
 #  host: webmethods.trafficmanager.net
+  host: null
   port:
     targetPort: 5555-tcp
   to:
