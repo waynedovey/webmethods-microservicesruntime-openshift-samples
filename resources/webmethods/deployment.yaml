@@ -10,7 +10,7 @@ metadata:
   name: webmethods
 spec:
   progressDeadlineSeconds: 600
-  replicas: 5
+  replicas: 10
   revisionHistoryLimit: 10
   selector:
     matchLabels:
