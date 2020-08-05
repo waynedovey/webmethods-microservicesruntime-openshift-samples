@@ -26,7 +26,8 @@ metadata:
     app: webmethods  
 spec:
   clusterConditions:
-    - type: OK
+  - status: "True"
+    type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions: []
     matchLabels:
